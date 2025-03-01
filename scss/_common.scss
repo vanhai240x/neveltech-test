@@ -1,0 +1,72 @@
+// Start: Common
+.slick-next,
+.slick-prev {
+  width: 56px;
+  height: 56px;
+  font-size: 0;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  &::before {
+    content: "";
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 4px);
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+.slick-prev {
+  right: auto;
+}
+.SP {
+  display: none !important;
+}
+.btn {
+  min-width: 68px;
+  height: 34px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 12px;
+  background: #12294a;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    box-shadow: -5px 3px 8px 0px rgba($color: #000000, $alpha: 0.3);
+    transform: translate(2px, -2px);
+  }
+}
+
+// Responsive
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1440px !important;
+  }
+}
+
+@media (max-width: 1270px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .slick-next,
+  .slick-prev {
+    background: none;
+  }
+  .collapsible {
+    font-size: 16px;
+    line-height: 22px;
+    &::after {
+      top: 30px;
+    }
+  }
+}
+// End: Common

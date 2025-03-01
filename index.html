@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" type="image/png" href="./image/icons/logo.svg" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Slickjs -->
+  <link rel="stylesheet" href="./css/slick/slick.css" />
+
+  <!-- Wowjs -->
+  <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/index.css" />
+
+  <title>Nevel Tech Test</title>
+</head>
+
+<body>
+  <!-- Start: Header -->
+  <div class="header flex justify-center items-center">
+    <div class="container flex justify-between">
+      <div class="left flex items-center">
+        <div class="logo flex items-center md:mr-[22px] lg:mr-[72px]">
+          <div class="burger">
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+          </div>
+          <a href="#">
+            <img src="./image/common/logo.svg" alt="Logo Nevel tech">
+          </a>
+        </div>
+        <nav class="nav hidden md:flex items-center">
+          <div class="search-button mr-2 lg:mr-[20px] cursor-pointer">
+            <img src="./image/common/icon-search.svg" alt="">
+          </div>
+          <ul class="flex text-[#CAD3E1] font-medium text-sm uppercase">
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">Home</a>
+            </li>
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">Game</a>
+            </li>
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">Infor</a>
+            </li>
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">News</a>
+            </li>
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">Promotions</a>
+            </li>
+            <li class="mx-[8px] lg:mx-[12px]">
+              <a href="#">VIP</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right">
+        <button class="btn mr-1 md:mr-2 wow fadeInUp" data-wow-delay="0.2s">Login</button>
+        <button class="btn bg-[#01AF70] wow fadeInUp" data-wow-delay="0.3s">Registration</button>
+      </div>
+    </div>
+    <div class="menu-fixed">
+      <div class="logo flex items-center mb-8">
+        <div class="burger">
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+        </div>
+        <a href="#">
+          <img src="./image/common/logo.svg" alt="Logo Nevel tech">
+        </a>
+      </div>
+      <nav class="nav flex flex-col">
+        <div class="search-button mr-2 cursor-pointer mb-2">
+          <img src="./image/common/icon-search.svg" alt="">
+        </div>
+        <ul class="flex flex-col text-[#CAD3E1] font-medium text-sm uppercase">
+          <li class="my-2">
+            <a href="#">Home</a>
+          </li>
+          <li class="my-2">
+            <a href="#">Game</a>
+          </li>
+          <li class="my-2">
+            <a href="#">Infor</a>
+          </li>
+          <li class="my-2">
+            <a href="#">News</a>
+          </li>
+          <li class="my-2">
+            <a href="#">Promotions</a>
+          </li>
+          <li class="my-2">
+            <a href="#">VIP</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="right mt-4">
+        <button class="btn mr-1">Login</button>
+        <button class="btn bg-[#01AF70]">Registration</button>
+      </div>
+    </div>
+  </div>
+  <!-- End: Header -->
+
+  <!-- Start: Home Page -->
+  <div id="homepage">
+    <section class="banner slider-mobile">
+      <div class="item">
+        <div class="left md:w-[50%] flex flex-col items-center max-w-[438px]">
+          <span
+            class="inline-block font-semibold py-[4px] md:py-[6px] px-[42px] md:px-[16px] text-xs md:text-[21px] bg-[#FFFFFF1A] rounded-2xl mb-[12px] md:mb-[15px]">Exclusive
+            Tournament</span>
+          <p class="font-semibold md:font-extrabold text-[22px] md:text-[38px] lg:text-[42px] mb-[15px] text-center">
+            Piggy Christmas Tap:
+            €35,000 For Your
+            Wins</p>
+          <button class="btn bg-[#FF0960] w-full max-w-[340px] h-[50px] wow fadeInUp" data-wow-delay="0.5s">JOIN AND
+            WIN</button>
+        </div>
+        <div class="right md:w-[50%] mb-[28px] md:mb-0 mt-[-70px] md:mt-0">
+          <img src="./image/homepage/banner-image-2.png" alt="">
+        </div>
+        <img class="cursor-pointer absolute top-[13px] md:top-[22px] right-[15px] md:right-[30px]"
+          src="./image/common/icon-info.svg" alt="">
+      </div>
+      <div class="item bg-2">
+        <div class="left md:w-[50%] flex flex-col items-center max-w-[438px]">
+          <span
+            class="inline-block font-semibold py-[4px] md:py-[6px] px-[42px] md:px-[16px] text-xs md:text-[21px] bg-[#FFFFFF1A] rounded-2xl mb-[12px] md:mb-[15px]">CashBack</span>
+          <p class="font-semibold md:font-extrabold text-[22px] md:text-[38px] lg:text-[42px] mb-[15px] text-center">Win
+            or Get Back up
+            to €100</p>
+          <button class="btn bg-[#FF0960] w-full max-w-[340px] h-[50px] mb-[18px] wow fadeInUp"
+            data-wow-delay="0.5s">Discover More</button>
+          <p class="hidden md:block text-sm text-center">See your best cashback offers for Slots, Live Games, and Crash
+            Games. Play and get your money back daily!</p>
+        </div>
+        <div class="right md:w-[50%] mb-[28px] md:mb-0 mt-[-70px] md:mt-0">
+          <img src="./image/homepage/banner-image-3.png" alt="">
+        </div>
+        <img class="cursor-pointer absolute top-[13px] md:top-[22px] right-[15px] md:right-[30px]"
+          src="./image/common/icon-info.svg" alt="">
+      </div>
+      <div class="item bg-2">
+        <div class="left md:w-[50%] flex flex-col items-center max-w-[438px]">
+          <span
+            class="inline-block font-semibold py-[4px] md:py-[6px] px-[42px] md:px-[16px] text-xs md:text-[21px] bg-[#FFFFFF1A] rounded-2xl mb-[12px] md:mb-[15px]">Exclusive
+            Tournament</span>
+          <p class="font-semibold md:font-extrabold text-[22px] md:text-[38px] lg:text-[42px] mb-[15px] text-center">
+            Install Our App: Play fast and secure</p>
+          <button class="btn bg-[#FF0960] w-full max-w-[340px] h-[50px] mb-[18px] wow fadeInUp"
+            data-wow-delay="0.5s">Get it now</button>
+          <p class="hidden md:block text-sm text-center">Take your mobile app to the next level!</p>
+        </div>
+        <div class="right md:w-[50%] mb-[28px] md:mb-0 mt-[-70px] md:mt-0">
+          <img src="./image/homepage/banner-image-4.png" alt="">
+        </div>
+        <img class="cursor-pointer absolute top-[13px] md:top-[22px] right-[15px] md:right-[30px]"
+          src="./image/common/icon-info.svg" alt="">
+      </div>
+      <div class="item bg-3">
+        <div class="left md:w-[50%] flex flex-col items-center max-w-[438px]">
+          <span
+            class="inline-block font-semibold py-[4px] md:py-[6px] px-[42px] md:px-[16px] text-xs md:text-[21px] bg-[#FFFFFF1A] rounded-2xl mb-[12px] md:mb-[15px]">Sport
+            Welcome Pack</span>
+          <p class="font-semibold md:font-extrabold text-[22px] md:text-[38px] lg:text-[42px] mb-[15px] text-center">Up
+            to 300%</p>
+          <button class="btn bg-[#FF0960] w-full max-w-[340px] h-[50px] mb-[18px] wow fadeInUp"
+            data-wow-delay="0.5s">GET NOW</button>
+          <p class="hidden md:block text-sm text-center">Boost your balance by getting a €60 FreeBet for the first 3
+            deposits
+            to win with favs at BlueChip. New players only.</p>
+        </div>
+        <div class="right md:w-[50%] mb-[28px] md:mb-0 mt-[-70px] md:mt-0">
+          <img src="./image/homepage/banner-image-1.png" alt="">
+        </div>
+        <img class="cursor-pointer absolute top-[13px] md:top-[22px] right-[15px] md:right-[30px]"
+          src="./image/common/icon-info.svg" alt="">
+      </div>
+    </section>
+
+    <section class="types container mx-auto flex justify-between">
+      <button class="btn hidden md:flex">
+        <img class="wow fadeInUp" data-wow-delay="0.1s" src="./image/common/nav-icon-1.svg" alt="">Diamond mine
+      </button>
+      <button class="btn hidden md:flex">
+        <img class="wow fadeInUp" data-wow-delay="0.2s" src="./image/common/nav-icon-2.svg" alt="">VIP
+      </button>
+      <button class="btn hidden md:flex">
+        <img class="wow fadeInUp" data-wow-delay="0.3s" src="./image/common/nav-icon-3.svg" alt="">Promotion
+      </button>
+      <button class="btn hidden md:flex">
+        <img class="wow fadeInUp" data-wow-delay="0.4s" src="./image/common/nav-icon-4.svg" alt="">Hot Match
+      </button>
+      <button class="btn hidden md:flex">
+        <img class="wow fadeInUp" data-wow-delay="0.5s" src="./image/common/nav-icon-5.svg" alt="">P2P Transaction
+      </button>
+      <button class="btn flex md:hidden bg-white">
+        <img class="w-[23px] wow fadeInUp" data-wow-delay="0.5s" src="./image/common/icon-search.svg" alt="">Search
+      </button>
+      <button class="btn flex bg-white">
+        <img class=" wow fadeInUp" data-wow-delay="0.6s" src="./image/common/nav-icon-6.svg" alt="">Games
+      </button>
+      <button class="btn flex bg-white">
+        <img class=" wow fadeInUp" data-wow-delay="0.7s" src="./image/common/nav-icon-7.svg" alt="">Providers
+      </button>
+    </section>
+
+    <section class="exclusion-games container mx-auto mb-[24px] md:mb-[40px]">
+      <div class="title flex justify-between items-center mb-2 md:mb-[32px]">
+        <h4 class="text-sm md:text-[32px] font-medium uppercase md:normal-case wow fadeInUp">Exclusive Games</h4>
+        <button class="btn px-0 min-w-fit flex items-center bg-transparent text-[15px]">
+          <span class="hidden md:inline-block">SEE ALL</span>
+          <img class="ml-2" src="./image/common/icon-view-all.svg" alt="">
+        </button>
+      </div>
+      <div class="wrapper">
+        <div class="items">
+          <div class="item">
+            <img src="./image/common/badge-hot.svg" alt="" class="badge">
+            <img src="./image/homepage/exclusive-games-1.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.2s">
+            <span>100HP Gaming</span>
+          </div>
+          <div class="item">
+            <img src="./image/common/badge-hot.svg" alt="" class="badge">
+            <img src="./image/homepage/exclusive-games-2.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.3s">
+            <span>VeliPlay</span>
+          </div>
+          <div class="item">
+            <img src="./image/common/badge-new.svg" alt="" class="badge">
+            <img src="./image/homepage/exclusive-games-3.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.4s">
+            <span>Evolution</span>
+          </div>
+          <div class="item">
+            <img src="./image/common/badge-new.svg" alt="" class="badge">
+            <img src="./image/homepage/exclusive-games-4.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.5s">
+            <span>VeliPlay</span>
+          </div>
+          <div class="item">
+            <img src="./image/homepage/exclusive-games-5.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.6s">
+            <span>Onlyplay</span>
+          </div>
+          <div class="item">
+            <img src="./image/homepage/exclusive-games-6.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.7s">
+            <span>VeliPlay</span>
+          </div>
+          <div class="item">
+            <img src="./image/homepage/exclusive-games-7.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.8s">
+            <span>VeliPlay</span>
+          </div>
+          <div class="item">
+            <img src="./image/homepage/exclusive-games-8.png" alt="" class="bg wow fadeInUp" data-wow-delay="0.9s">
+            <span>VeliPlay</span>
+          </div>
+          <div class="item">
+            <img src="./image/homepage/exclusive-games-9.png" alt="" class="bg wow fadeInUp" data-wow-delay="1s">
+            <span>VeliPlay</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="providers container mx-auto mb-[24px] md:mb-[40px]">
+      <div class="title flex justify-between items-center mb-2 md:mb-[32px]">
+        <h4 class="text-sm md:text-[32px] font-medium uppercase md:normal-case wow fadeInUp" data-wow-delay=".1s">All
+          providers</h4>
+        <button class="btn px-0 min-w-fit flex items-center bg-transparent text-[15px]">
+          <span class="hidden md:inline-block">SEE ALL</span>
+          <img class="ml-2" src="./image/common/icon-view-all.svg" alt="">
+        </button>
+      </div>
+      <div class="wrapper">
+        <div class="items">
+          <div class="item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="top">
+              <img src="./image/homepage/providers-1.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">Evolution</a>
+              <a href="#" class="count">312 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.4s">
+            <div class="top">
+              <img src="./image/homepage/providers-2.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">Spribe</a>
+              <a href="#" class="count">12 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.6s">
+            <div class="top">
+              <img src="./image/homepage/providers-3.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">VeliPlay</a>
+              <a href="#" class="count">9 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.8s">
+            <div class="top">
+              <img src="./image/homepage/providers-4.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">Turbo Games</a>
+              <a href="#" class="count">36 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="1s">
+            <div class="top">
+              <img src="./image/homepage/providers-5.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">SmartSoft</a>
+              <a href="#" class="count">37 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="1.1s">
+            <div class="top">
+              <img src="./image/homepage/providers-6.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">100HP Gaming</a>
+              <a href="#" class="count">7 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="1.2s">
+            <div class="top">
+              <img src="./image/homepage/providers-7.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">BGaming</a>
+              <a href="#" class="count">166 games</a>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="1.3s">
+            <div class="top">
+              <img src="./image/homepage/providers-8.svg" alt="">
+            </div>
+            <div class="bottom">
+              <a href="#" class="name">Wazdan</a>
+              <a href="#" class="count">199 games</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End: Home Page -->
+
+  <!-- Start: Footer -->
+  <footer class="footer bg-[#12294A] py-[25px] md:py-[60px]">
+    <div class="container hidden md:flex mx-auto justify-between">
+      <div class="block-1 max-w-[200px]">
+        <h4 class="font-medium text-[24px] mb-2">Help Center</h4>
+        <p class="text-[15px] text-[#90A2BD] mb-5">If you have any questions?</p>
+        <button class="btn w-full bg-[#3555FF] mb-[40px] wow fadeInUp" data-wow-delay="0.3s">get answers</button>
+        <ul class="flex justify-between items-center">
+          <li class="wow fadeInUp" data-wow-delay="0.5s"><a href="#"><img src="./image/common/social-media-1.svg.svg"
+                alt=""></a></li>
+          <li class="wow fadeInUp" data-wow-delay="0.5s"><a href="#"><img src="./image/common/social-media-2.svg.svg"
+                alt=""></a></li>
+          <li class="wow fadeInUp" data-wow-delay="0.5s"><a href="#"><img src="./image/common/social-media-3.svg.svg"
+                alt=""></a></li>
+          <li class="wow fadeInUp" data-wow-delay="0.5s"><a href="#"><img src="./image/common/social-media-4.svg.svg"
+                alt=""></a></li>
+        </ul>
+      </div>
+      <div class="block-2">
+        <h5 class="text-[15px] font-medium mb-[20px]">Games</h5>
+        <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+          <li class="mb-[20px]"><a href="#">Game 1</a></li>
+          <li class="mb-[20px]"><a href="#">Game 2</a></li>
+          <li class="mb-[20px]"><a href="#">Game 3</a></li>
+          <li class="mb-[20px]"><a href="#">Game 14</a></li>
+        </ul>
+      </div>
+      <div class="block-3">
+        <h5 class="text-[15px] font-medium mb-[20px]">About</h5>
+        <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+          <li class="mb-[20px]"><a href="#">About Us</a></li>
+          <li class="mb-[20px]"><a href="#">Promotions</a></li>
+          <li class="mb-[20px]"><a href="#">VIP</a></li>
+          <li class="mb-[20px]"><a href="#">Help Center</a></li>
+          <li class="mb-[20px]"><a href="#">Awards & Certificates</a></li>
+          <li class="mb-[20px]"><a href="#">App</a></li>
+        </ul>
+      </div>
+      <div class="block-4">
+        <h5 class="text-[15px] font-medium mb-[20px]">Legal Information</h5>
+        <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+          <li class="mb-[20px]"><a href="#">General Terms & Conditions</a></li>
+          <li class="mb-[20px]"><a href="#">Responsible Gaming Policy</a></li>
+          <li class="mb-[20px]"><a href="#">Sports Betting Rules</a></li>
+          <li class="mb-[20px]"><a href="#">Privacy and Cookies Policy</a></li>
+          <li class="mb-[20px]"><a href="#">Payment Methods</a></li>
+          <li class="mb-[20px]"><a href="#">Limits</a></li>
+        </ul>
+      </div>
+      <div class="block-5 max-w-[160px]">
+        <button
+          class="btn w-full h-[54px] text-[15px] bg-[#1A3157] normal-case px-[10px] py-[6px] flex text-left mb-2 wow fadeInUp"
+          data-wow-delay="0.5s">
+          <img src="./image/common/os-1.svg" alt="">Bluechip App
+          for Mac OS
+        </button>
+        <div class="flex justify-between">
+          <button
+            class="btn w-[76px] h-[63px] text-[15px] bg-[#1A3157] normal-case flex flex-col items-center justify-center wow fadeInUp"
+            data-wow-delay="0.7s">
+            <img src="./image/common/os-2.svg" alt="">Android
+          </button>
+          <button
+            class="btn w-[76px] h-[63px] text-[15px] bg-[#1A3157] normal-case flex flex-col items-center justify-center wow fadeInUp"
+            data-wow-delay="0.8s">
+            <img src="./image/common/os-3.svg" alt="">iOS
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto md:hidden px-[10px]">
+      <div>
+        <button class="collapsible">Games</button>
+        <div class="content-collapse">
+          <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+            <li><a href="#">Game 1</a></li>
+            <li><a href="#">Game 2</a></li>
+            <li><a href="#">Game 3</a></li>
+            <li><a href="#">Game 14</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <button class="collapsible">About</button>
+        <div class="content-collapse">
+          <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">VIP</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Awards & Certificates</a></li>
+            <li><a href="#">App</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <button class="collapsible">Legal Information</button>
+        <div class="content-collapse">
+          <ul class="flex flex-col text-[#90A2BD] text-[15px]">
+            <li><a href="#">General Terms & Conditions</a></li>
+            <li><a href="#">Responsible Gaming Policy</a></li>
+            <li><a href="#">Sports Betting Rules</a></li>
+            <li><a href="#">Privacy and Cookies Policy</a></li>
+            <li><a href="#">Payment Methods</a></li>
+            <li><a href="#">Limits</a></li>
+          </ul>
+        </div>
+      </div>
+      <h4 class="text-center font-medium mt-[36px] mb-[22px]">Follow Us</h4>
+      <ul class="flex justify-between items-center max-w-[300px] mx-auto mb-[80px] px-[15px]">
+        <li><a href="#"><img class="w-[35px] wow fadeInUp" data-wow-delay="0.5s"
+              src="./image/common/social-media-1.svg.svg" alt=""></a></li>
+        <li><a href="#"><img class="w-[35px] wow fadeInUp" data-wow-delay="0.6s"
+              src="./image/common/social-media-2.svg.svg" alt=""></a></li>
+        <li><a href="#"><img class="w-[35px] wow fadeInUp" data-wow-delay="0.7s"
+              src="./image/common/social-media-3.svg.svg" alt=""></a></li>
+        <li><a href="#"><img class="w-[35px] wow fadeInUp" data-wow-delay="0.8s"
+              src="./image/common/social-media-4.svg.svg" alt=""></a></li>
+      </ul>
+      <div
+        class="flex justify-between items-center px-[24px] py-[18px] rounded-[10px] bg-[#1A3157] mb-[16px] wow fadeInUp"
+        data-wow-delay="0.5s">
+        <div>
+          <p class="text-[15px] font-medium">Help Center</p>
+          <p class="text-[13px] text-[#90A2BD]">If you have any questions?</p>
+        </div>
+        <button class="btn bg-[#3555FF]">get answers</button>
+      </div>
+      <div class="flex justify-between os mb-[18px]">
+        <button class="btn bg-[#1A3157] h-[54px] flex justify-center items-center normal-case text-left wow fadeInUp"
+          data-wow-delay="0.7s">
+          <img src="./image/common/os-2.svg" alt="">
+          <div>
+            <p class="text-[15px] font-medium">Bluechip App</p>
+            <p class="text-[12px] text-[#90A2BD]">for Android</p>
+          </div>
+        </button>
+        <button class="btn bg-[#1A3157] h-[54px] flex justify-center items-center normal-case text-left wow fadeInUp"
+          data-wow-delay="0.8s">
+          <img src="./image/common/os-3.svg" alt="">
+          <div>
+            <p class="text-[15px] font-medium">Bluechip App</p>
+            <p class="text-[12px] text-[#90A2BD]">for iOS</p>
+          </div>
+        </button>
+      </div>
+    </div>
+  </footer>
+  <!-- End: Footer -->
+
+  <!-- jQuery first, then Popper -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="./js/slick/slick.min.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

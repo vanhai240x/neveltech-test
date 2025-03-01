@@ -1,0 +1,53 @@
+// Start: Collapse
+.collapsible {
+  cursor: pointer;
+  padding: 13px 15px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #1a3157;
+  margin-top: 16px;
+  border-radius: 10px;
+  position: relative;
+  &:after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url("../image/common/icon-arrow-down.svg") center;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    transition: 0.3s ease-in-out;
+  }
+  &.active {
+    border-radius: 10px 10px 0 0;
+    &:after {
+      transform: translateY(-50%) rotate(180deg);
+    }
+  }
+}
+
+.content-collapse {
+  max-height: 0;
+  background-color: #1a3157;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 15px;
+    &:last-child {
+      padding-bottom: 15px;
+    }
+  }
+}
+// End: Collapse
+
+.os {
+  .btn {
+    width: calc(50% - 4px);
+  }
+}
